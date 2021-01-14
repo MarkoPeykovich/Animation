@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	margin-left: 0px;
+	height: 100vh;
+}
+
+canvas {
+	display: block;
+}
+
+.centered {
+  position: fixed;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+	font-family: 'Times New Roman';
+	font-size: 1.5em;
+	text-transform: uppercase;
+	line-height: .8em;
+	border: 5px solid black;
+	padding: .2em;
+	transform-style: preserve-3d;
+	animation: animate 15s linear infinite;
+}
+
+@keyframes animate 
+{
+	0%
+	{
+		transform: perspective(1000px) rotate(0deg);
+	}
+	100% 
+	{
+		transform: perspective(1000px) rotate(360deg);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
